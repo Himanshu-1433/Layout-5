@@ -16,41 +16,8 @@
 }
 
 /* for lines */
-.lines div:nth-child(1),
-.lines div:nth-child(2) {
-    position: relative;
-    margin: 10px 0px;
-    margin-left: 13px;
-    width: 90vw;
-    background-color: white;
-    padding: 5px 5px;
-}
-
-.lines div:nth-child(2) {
-    width: 10vw;
-}
-
-/* orange */
-
-.main-container {
-    position: relative;
-    left: 7rem;
-}
-
-#orange {
-    position: relative;
-    width: 90vw;
-    z-index: 0;
-    height: 60rem;
-}
-
 
 /* header text */
-
-div#header-txt {
-    padding: 10px 0px;
-    background-color: rgba(255, 94, 0, 0.541);
-}
 
 #header-txt .logo {
     color: white;
@@ -86,7 +53,7 @@ div#header-txt {
 }
 
 #images-group img {
-    width: 4rem;
+    width: 8rem;
     margin: 0rem 0rem;
 }
 
@@ -111,20 +78,21 @@ div#header-txt {
 
 
 #cyan-sec-block {
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 40%, rgba(1, 255, 234, 0.692) 40%, rgba(1, 255, 234, 0.692) 100%);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 40%, rgba(1, 255, 234, 0.692) 40%, rgba(1, 255, 234, 0.425) 100%);
     position: absolute;
     top: 40rem;
-    width: 100vw;
+    width: 100%;
+    margin-left: 10px;
     border-left: 10px solid white;
     padding: 1rem 2rem;
 }
 
 #cyan-sec-block .cyan-header {
     color: white;
-
 }
 
 #cyan-sec-block .cyan-header h1 {
+    color: rgba(255, 255, 255, 0.671);
     font-size: 12rem;
     font-weight: 800;
     line-height: 8rem;
@@ -144,65 +112,192 @@ div#header-txt {
     padding-left: 15px;
 }
 
-#font-of-a .txt {
-    font-weight: 700;
-    color: white;
-    font-size: 10rem;
-}
-
 .block-cyan {
     width: 100vw;
 }
 
-@media screen and (min-width: 1450px) {
-    #img-front-page {
-        position: absolute;
-        z-index: -1;
-        top: 0px;
-        right: 0px;
-        width: 80vw;
-        height: 53rem;
-    }
+#txtOftheCyan h1 {
+    font-size: 10rem;
 }
 
-@media screen and (min-width: 2050px) {
-    #img-front-page {
-        width: 90vw;
-        height: 64rem;
-    }
+#header {
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
 }
 
-@media screen and (max-width: 1350px) {
+#txtOftheCyan {
+    position: relative;
+    top: 0px;
+    color: white;
+    text-align: right;
+    font-size: 1.1+rem;
+}
 
-    #img-front-page {
-        position: absolute;
-        z-index: -1;
-        top: 0px;
-        right: 0px;
-        width: 80vw;
-        height: 53rem;
+.address {
+    margin-top: 25px;
+}
+
+.address h6 {
+    margin: 10px 0px 30px 1px;
+    color: white;
+    font-size: 1rem;
+}
+
+.address h6 i {
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+
+#icons {
+    color: white;
+    padding: 10px;
+}
+
+#icons i {
+    font-size: 6rem;
+}
+
+#Sitelogo {
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/* new section  */
+
+.main-container {
+    position: relative;
+    width: 91.8vw;
+    left: 4rem;
+}
+
+
+.lines div:nth-child(1),
+.lines div:nth-child(2) {
+    position: relative;
+    width: 100%;
+    margin: 10px 0px;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.lines div:nth-child(2) {
+    width: 10%;
+}
+
+
+.cyan-section {
+    z-index: 1;
+    border-left: 5px solid white;
+}
+
+.cyan-header {
+    color: white;
+}
+
+.cyan-header h1 {
+    font-size: 13rem;
+    line-height: 9rem;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.cyan-header h2 {
+    font-size: 5rem;
+    font-weight: 200;
+    padding: 0px 10px;
+}
+
+
+.cyan-header h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0px 13px;
+}
+
+div#cyan-side-text {
+    text-align: right;
+}
+
+div#cyan-side-text h1 {
+    font-size: 10rem;
+    color: white;
+}
+
+div#cyan-side-text p {
+    text-align: justify;
+    color: white;
+}
+
+#cyan-left-side .address {
+    margin-top: 10rem;
+}
+
+#cyan-left-side {
+    margin: 1rem 0rem;
+}
+
+.txt {
+    color: white;
+    margin-top: 20px;
+}
+
+.orange {
+    position: absolute;
+    background-color: rgba(255, 136, 0, 0.712);
+    top: -10px;
+    padding: 34rem 20rem;
+    left: 0px;
+}
+
+.cyan {
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.568);
+    right: 0px;
+    bottom: 0rem;
+    z-index: 0;
+    padding: 28rem 20rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .cyan-header h1 {
+        font-size: 10rem;
     }
 }
 
 @media screen and (max-width: 998px) {
-    #img-front-page {
-        width: 90vw;
-        height: 100vh;
+    .main-container {
+        position: relative;
+        width: 91.8vw;
+        left: 0rem;
+    }
+
+    .trends {
+        margin-top: 5rem;
+        padding: 0% 14rem;
+    }
+
+    .lines div:nth-child(1) {
+        width: 93.4vw;
+    }
+
+    .cyan {
+        padding: 27rem 15rem;
+        right: -20px;
+        bottom: -20px;
+    }
+
+    .cyan-header h1 {
+        font-size: 8rem;
+    }
+
+    div#cyan-side-text h1 {
+        font-size: 8rem;
     }
 }
-
-@media screen and (max-width: 776px) {
-    #img-front-page {
-        width: 100vw;
-        height: 85vh;
-    }
-}
-
-@media screen and (max-width: 559px) {
-    #img-front-page {
-        width: 90vw;
-        height: 85vh;
-    }
-}
-
-@media screen and (max-width: 369px) {}
