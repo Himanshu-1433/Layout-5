@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* For background image */
@@ -150,6 +153,8 @@
 }
 
 #icons {
+    border-top: 3px solid gray;
+    margin: 40px;
     color: white;
     padding: 10px;
 }
@@ -182,8 +187,8 @@
 .lines div:nth-child(1),
 .lines div:nth-child(2) {
     position: relative;
-    width: 100%;
-    margin: 10px 0px;
+    width: 93vw;
+    margin: 10px 15px;
     background-color: white;
     padding: 5px 5px;
 }
@@ -199,6 +204,7 @@
 }
 
 .cyan-header {
+    margin-top: 3rem;
     color: white;
 }
 
@@ -245,59 +251,411 @@ div#cyan-side-text p {
 
 .txt {
     color: white;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .orange {
     position: absolute;
-    background-color: rgba(255, 136, 0, 0.712);
+    background-color: #bb481be1;
     top: -10px;
-    padding: 34rem 20rem;
+    padding: 31rem 26rem;
     left: 0px;
 }
 
 .cyan {
     position: absolute;
     background-color: rgba(0, 255, 255, 0.568);
-    right: 0px;
-    bottom: 0rem;
+    right: -31px;
+    bottom: -1rem;
     z-index: 0;
-    padding: 28rem 20rem;
+    padding: 28rem 22rem;
 }
 
-@media screen and (max-width: 1100px) {
+
+@media screen and (min-width: 1400px) {
+    #images-group img {
+        width: 6rem;
+        margin: 0rem 0rem;
+    }
+
+    #header-txt .context p {
+        font-size: 2.3rem;
+    }
+
+    .orange {
+        padding: 38rem 31rem;
+    }
+
+    div#cyan-side-text p {
+        font-size: 1.5rem;
+    }
+
+    #img-front-page {
+        width: 84vw;
+        right: -45px;
+        height: 53rem;
+        top: 0px;
+    }
+
+    #header-txt .context {
+        padding: 0rem 1rem;
+    }
+
+    .trends {
+        margin-top: 4rem;
+        padding: 0% 15rem;
+    }
+
+    .trends h1 {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .cyan-header {
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+
     .cyan-header h1 {
+        line-height: 10rem;
+        font-size: 14rem;
+    }
+
+    .cyan-header h2 {
+        font-size: 7rem;
+        padding: 0px 0px;
+    }
+
+    .cyan-header h5 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0px 2px;
+    }
+
+    .txt {
+        margin-top: 133px;
+    }
+
+    .txt h2 {
+        font-size: 3rem;
+    }
+
+    #cyan-left-side .address {
+        margin-top: 8rem;
+    }
+
+    .cyan {
+        line-height: 3rem;
+        padding: 32rem 27rem;
+        font-size: 4rem;
+        right: -50px;
+        bottom: -1rem;
+    }
+
+    .trends {
+        margin-top: 4rem;
+        padding: 0% 10rem;
+    }
+
+    #icons i {
+        font-size: 4rem;
+    }
+
+    #Sitelogo {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .address h6 {
+        margin: 10px 0px 30px 1px;
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+
+    #header-txt .context {
+        padding: 0rem 7rem;
+    }
+
+    #images-group img {
+        width: 10rem;
+        margin: 0rem 0rem;
+    }
+
+    #Sitelogo {
+        margin-top: 1rem;
+        font-size: 2.1rem;
+    }
+
+    #icons i {
         font-size: 10rem;
+    }
+
+    .cyan-header h1 {
+        line-height: 10rem;
+        font-size: 17rem;
+    }
+
+    .cyan-header h2 {
+        font-size: 9rem;
+        padding: 0px 15px
+    }
+
+    .orange {
+        padding: 38rem 43rem;
+    }
+
+    .cyan {
+        line-height: 3rem;
+        padding: 37rem 40rem;
     }
 }
 
 @media screen and (max-width: 998px) {
+
+    #images-group img {
+        width: 6rem;
+        margin: 0rem 0rem;
+    }
+
+    .orange {
+        padding: 30rem 13rem;
+    }
+
+    #img-front-page {
+        width: 84vw;
+        right: -45px;
+        height: 53rem;
+        top: 0px;
+    }
+
+    #header-txt .context {
+        padding: 0rem 1rem;
+    }
+
+    .trends {
+        margin-top: 4rem;
+        padding: 0% 15rem;
+    }
+
+    .trends h1 {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .cyan-header {
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+
+    .cyan-header h1 {
+        line-height: 5rem;
+        font-size: 7rem;
+    }
+
+    .cyan-header h2 {
+        font-size: 3rem;
+        padding: 0px 0px;
+    }
+
+    .cyan-header h5 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0px 2px;
+    }
+
+    .txt {
+        margin-top: 0px;
+    }
+
+    .txt h2 {
+        font-size: 1rem;
+    }
+
+    #cyan-left-side .address {
+        margin-top: 1rem;
+    }
+
+    .cyan {
+        line-height: 3rem;
+        padding: 27rem 17rem;
+        font-size: 4rem;
+    }
+
+    .trends {
+        margin-top: 4rem;
+        padding: 0% 10rem;
+    }
+
+    #icons i {
+        font-size: 4rem;
+    }
+
+    #Sitelogo {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 578px) {
+
     .main-container {
         position: relative;
         width: 91.8vw;
         left: 0rem;
     }
 
+    .orange {
+        padding: 22rem 18rem;
+    }
+
+    #img-front-page {
+        width: 100vw;
+        height: 23rem;
+    }
+
+    #header-txt .context {
+        padding: 0rem 1rem;
+    }
+
     .trends {
-        margin-top: 5rem;
-        padding: 0% 14rem;
+        margin-top: 4rem;
+        padding: 0% 0rem;
     }
 
-    .lines div:nth-child(1) {
-        width: 93.4vw;
+    .trends h1 {
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        width: 96vw;
+        text-align: center;
     }
 
-    .cyan {
-        padding: 27rem 15rem;
-        right: -20px;
-        bottom: -20px;
+    .cyan-header {
+        margin-top: 0rem;
+        margin-left: 1rem;
     }
 
     .cyan-header h1 {
-        font-size: 8rem;
+        line-height: 3rem;
+        font-size: 4rem;
     }
 
-    div#cyan-side-text h1 {
-        font-size: 8rem;
+    .cyan-header h2 {
+        font-size: 3rem;
+        padding: 0px 0px;
+    }
+
+    .cyan-header h5 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0px 2px;
+    }
+
+    .txt {
+        margin-top: 0px;
+    }
+
+    .txt h2 {
+        font-size: 1rem;
+    }
+
+    #cyan-left-side .address {
+        margin-top: 1rem;
+    }
+
+    .cyan {
+        padding: 15rem 18rem;
+        right: -40px;
+        bottom: -20px;
+    }
+
+    #icons i {
+        font-size: 4rem;
+    }
+
+    #Sitelogo {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .orange {
+        padding: 28rem 11rem;
+    }
+
+    #img-front-page {
+        width: 100vw;
+        height: 23rem;
+    }
+
+    #header-txt .context {
+        padding: 0rem 1rem;
+    }
+
+    .trends {
+        margin-top: 4rem;
+        padding: 0% 0rem;
+    }
+
+    .trends h1 {
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .cyan-header {
+        margin-top: 0rem;
+    }
+
+    .cyan-header h1 {
+        line-height: 3rem;
+        font-size: 4rem;
+    }
+
+    .cyan-header h2 {
+        font-size: 3rem;
+        padding: 0px 0px;
+    }
+
+    .cyan-header h5 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0px 2px;
+    }
+
+    .txt {
+        margin-top: 0px;
+    }
+
+    .txt h2 {
+        font-size: 1rem;
+    }
+
+    #cyan-left-side .address {
+        margin-top: 1rem;
+    }
+
+    .cyan {
+        padding: 20rem 15rem;
+        right: -40px;
+        bottom: -20px;
+    }
+
+    #icons i {
+        font-size: 4rem;
+    }
+
+    #Sitelogo {
+        margin-top: 1rem;
+        font-size: 1.1rem;
     }
 }
